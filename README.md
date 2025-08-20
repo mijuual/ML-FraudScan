@@ -44,7 +44,14 @@ The objective of this assignment is to analyze historical transaction data and b
 Unit tests were added to improve **reliability** and **reproducibility**:
 - Tested visualization functions to ensure plots are generated without errors.  
 - Tested IP-to-country mapping logic for correct geolocation assignment.  
-- Automated tests allow consistent validation when code changes are made.  
+- Automated tests allow consistent validation when code changes are made.
+
+## Interactive Dashboard
+
+An interactive Streamlit dashboard was created to enable:
+- Real-time exploration of fraud vs. non-fraud transaction distributions.
+- Visual insights into categorical features (e.g., browser, source, device).
+- Easy interpretation of fraud patterns by non-technical stakeholders.
 
 ##  Final Output
 
@@ -54,6 +61,8 @@ The final dataset was:
 - Class-balanced
 - Scaled and encoded
 - Ready for model training and evaluation
+- pytest – unit testing
+- streamlit – interactive dashboard development
 
 ---
 
