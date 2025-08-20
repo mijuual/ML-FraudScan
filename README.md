@@ -61,8 +61,7 @@ The final dataset was:
 - Class-balanced
 - Scaled and encoded
 - Ready for model training and evaluation
-- pytest – unit testing
-- streamlit – interactive dashboard development
+
 
 ---
 
@@ -72,5 +71,7 @@ The final dataset was:
 - `matplotlib`, `seaborn` – for data visualization
 - `scikit-learn` – for preprocessing, modeling, and evaluation
 - `imblearn` – for handling class imbalance with SMOTE
+- ` pytest` – unit testing
+- `streamlit` – interactive dashboard development
 
 ---
